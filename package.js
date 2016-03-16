@@ -11,7 +11,7 @@ Package.on_use(function(api) {
   api.add_files([
   ], 'client');
   
-  api.export('');
+  api.export('ClearSubs');
 });
 
 //TODO: Tests
