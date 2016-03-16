@@ -6,11 +6,9 @@ Package.describe({
 });
 
 Package.on_use(function(api) {
-  api.use('1.2');
-
   api.add_files([
   ], 'client');
-  
+
   api.export('ClearSubs');
 });
 
