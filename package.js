@@ -1,7 +1,7 @@
 Package.describe({
   name: "elhoucine:clear-subs",
   summary: "A simple meteor package to clear subscriptions",
-  version: "0.0.1",
+  version: "0.0.2",
   git: "https://github.com/elhoucine/clear-subs.git"
 });
 
