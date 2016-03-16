@@ -1,10 +1,10 @@
 ClearSubs = {};
 
 /**
-* Stop a subscription.
+* Clear a subscription.
 * {String} subscription
 */
-ClearSubs.stop = function(subscription) {
+ClearSubs.clear = function(subscription) {
   var subs = Meteor.default_connection._subscriptions;
   for(sub in subs){
     if(subs[sub].name === subscription){
