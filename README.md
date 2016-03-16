@@ -6,5 +6,9 @@ subscription.stop() only stop the subscription fot that particular instance. Cle
 
 ## Api
 ``
-ClearSubs.stop('subscriptionName');
+ClearSubs.clear('subscriptionName');
+``
+
+``
+ClearSubs.clearAll();
 ``
