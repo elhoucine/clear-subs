@@ -1,2 +1,7 @@
-# clearSubs
-A meteor package to clear all subscriptions.
+# clear-subs
+Stop any client subscription easily.
+
+## Api
+``
+ClearSubs.stop('subscriptionName');
+``
