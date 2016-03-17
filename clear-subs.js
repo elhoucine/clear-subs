@@ -15,9 +15,8 @@ ClearSubs.clear = function(subscription) {
 
 /**
 * Clear all subscriptions.
-* {String} subscription
 */
-ClearSubs.clearAll = function(subscription) {
+ClearSubs.clearAll = function() {
   var subs = Meteor.default_connection._subscriptions;
   for(sub in subs){
     subs[sub].stop()
